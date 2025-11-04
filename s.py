@@ -9,6 +9,6 @@ else:
   name ="deepa"
   rollno ="101"
   print("no input given - using default values:")
-  print ("script name:, script name)
+  print ("script name:", script name)
   print ("student name:",name)
   print ("roll number:",rollno)
