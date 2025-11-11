@@ -1,14 +1,16 @@
 import sys
-if len (sys.argv) == 3:
-  script_name = sys.argv[0]
-  name = sys.argv[1]
-  rollno = sys.argv[2]
-  print("user provided input valuse:")
+
+if len(sys.argv) == 3:
+     script_name = sys.argv[0]
+     name = sys.argv[1]
+     rollno = sys.argv[2]
+     print("user provided input values:")
 else:
-  script name = sys.argv[0]
-  name ="deepa"
-  rollno ="101"
-  print("no input given - using default values:")
-  print ("script name:", script name)
-  print ("student name:",name)
-  print ("roll number:",rollno)
+     script_name = sys.argv[0]
+     name = "sindhu"
+     rollno = "008"
+     print("no input given - using default values:")
+    
+print("script name:",script_name)
+print("student name:",name) 
+print("roll number:",rollno)
